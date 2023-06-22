@@ -1,0 +1,250 @@
+body{
+    font-family: 'Inter';
+    background: linear-gradient(180deg, #FFFFFF 0.05%, #8F88BE 18.8%, #0F3F7D 35.76%, rgba(19, 44, 109, 0.84) 61.26%, #2184E0 67.91%, rgba(255, 255, 255, 0.8) 90.15%, rgba(255, 255, 255, 0.6) 102.48%) no-repeat;
+}
+
+
+/* ================================================================================ */
+.menu-top-logo p{
+   margin-top: -40px;
+   margin-left: 15px;
+}
+.menu-top{
+    display: flex;
+    margin-top: 51px;
+    list-style: none;
+    justify-content: space-between;
+}
+.otsaid{
+    margin-top: 37px;
+    margin-bottom: 49px;
+}
+.menu-top .otsaid2{
+    margin-left: 50px;
+    margin-right: 15px;
+    margin-top: 45px;
+}
+.menu-top li > a {
+    text-decoration: none;
+    color: black ;
+}
+.menu-top-element2{
+    text-align: center;
+}
+.menu-top-element3{
+    margin-top: 45px;
+}
+.menu-top-element4{
+    margin-top: 45px;
+}
+.menu-top-element6btn{
+    border-radius: 20px;
+    padding: 5px;
+    margin-left: 15px;
+}
+.liner1{
+    border:solid 2px #0F3F7D;
+    margin-top: -40px;
+    margin-bottom: 86px;
+}
+.menu-top li > a:hover{
+    color:#0E8ABF ;
+}
+/* ================================= */
+.carusel .container .carousel .carousel-inner .carousel-item img{
+    width: 494.52px;
+    height: 343px;
+    border-radius: 20px;
+}
+/* ============================================================ */
+.inter{
+    margin-top: 55px;
+    margin-bottom: 128px;
+}
+.inter .container .row .col-md-6 .help-yr{
+    width: 328px;
+    height: 285px;
+    margin-left: 126px;
+}
+#interesting-fact{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    width: 534.86px;
+    color: #FFFFFF;
+}
+#data{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    margin-left: 60px;
+    color: #ffffff;
+    margin-top: 182px;
+}
+.col .collapse .card-body p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFDFD;
+
+}
+.o-nas{
+    margin-bottom: 90px;
+}
+.namneplatat1, 
+.namneplatat2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+
+}
+.namneplatat2{
+    margin-top: 23px;
+}
+.namneplatat1 a, 
+.namneplatat2 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.content{
+    margin-left: 160px;
+}
+.reclama{
+    margin-bottom: 192px;
+}
+/* =================== */
+.classic{
+    background: url(../img/беззаднего\ фона.png) no-repeat;
+    background-blend-mode: multiply;
+    width: 225px;
+    height: 215px;
+    margin-bottom: 216px;
+    
+}
+.proba{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 45px;
+    line-height: 54px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.addhelp{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+
+    transform: rotate(-0.01deg);
+    border: none;
+    background: none;
+}
+.addhelp a{
+    color: #ffffff;
+    margin-left: 165px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ======================================================================== */
+.footer{
+    list-style: none;
+}
+.footer a{
+    text-decoration: none;
+    color: #000000;
+}
+.otst li{
+    padding-bottom: 10px;
+}
+.flex{
+    display: flex;
+}
+.flex li{
+    padding: 10px;
+}
+.menu-top-logo{
+    margin-left: 15px;
+}
+.line1{
+    border-top: 2px solid #000000;
+    transform: rotate(-0.16deg);
+    padding-top: 40px;
+}
+
+
+
+
+/* предлоудер */
+.preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    /* фоновый цвет */
+    background: #8F88BE;
+    z-index: 1001;
+  }
+  
+  .preloader__image {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    width: 70px;
+    height: 70px;
+    margin-top: -35px;
+    margin-left: -35px;
+    text-align: center;
+    animation: preloader-rotate 2s infinite linear;
+  }
+  
+  @keyframes preloader-rotate {
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .loaded_hiding .preloader {
+    transition: 15s opacity;
+    opacity: 0;
+  }
+  
+  .loaded .preloader {
+    display: none;
+  }

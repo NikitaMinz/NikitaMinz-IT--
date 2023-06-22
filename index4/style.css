@@ -1,0 +1,65 @@
+.h1{font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    background: conic-gradient(from 600.46deg at 60% -108.87%, #000000 0deg, #FFFFFF 360deg);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+.text11{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #06052F;
+    margin-bottom: 40px;
+}
+.h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    margin-top: 70px;
+    margin-bottom: 27px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.text12{
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 514px;
+   
+}
+.text13{
+    text-decoration:double;
+    font-family: 'Inter';
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+ul>li::marker{
+    color:white
+
+}
+.help-down{
+    margin-top:70px;
+}
+.nerw{
+    margin-bottom: 130px;
+    margin-top: 100px;
+}

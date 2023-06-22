@@ -1,0 +1,70 @@
+.num1 h3{
+        font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+    width: 500px;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.num1 h5{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    width: 190px;
+    color: #FFFFFF;
+    margin-bottom: -20px;
+}
+.num1 p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    width: 430px;
+    padding-bottom: 55px;
+    
+}
+.num1 a{
+    color: #FFFFFF;
+}
+.num1  button{
+    text-decoration: none;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 833;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    font-variation-settings: 'slnt' -10;
+    border: none;
+    background: none;
+    
+}
+.num1 button{
+    margin-top: -50px;
+    margin-left: 250px;
+}
+.num2{
+    width: 300px;
+    height: 285px;
+}
+.num1{
+    margin-left: 100px;
+    margin-bottom: 80px;
+}
+.ot{
+    margin-bottom: 330px;
+}
+.num3 img{
+    padding-top: 60px;
+}
+.num4{
+    padding-top: 20px;
+}
